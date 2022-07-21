@@ -102,7 +102,7 @@ const Contact = () => {
               <br />
               India,
               <br />
-              vidiya house gujar tola, <br />
+              vidiya house, gujar tola, <br />
               Rampur UP, 244901 <br />
               <br />
               +91 9012261447
