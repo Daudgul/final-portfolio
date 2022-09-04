@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './Sidebar.scss'
 import LogoS from '../assets/images/logo-d.png'
 import LogoSubtitle from '../assets/images/logo-img.png'
