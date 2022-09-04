@@ -6,6 +6,7 @@ import Loader from 'react-loaders'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from './AnimatedLetters'
+import Info from './Info'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -95,6 +96,7 @@ const Contact = () => {
           </div>
         </div>
 
+        <Info />
         <div className="map-wrap">
           <div className="info-box">
             <div className="info-map">
@@ -107,7 +109,7 @@ const Contact = () => {
               <br />
               +91 9012261447
               <br />
-              <span>mohd.daudgul@gmail.com</span>
+              mohd.daudgul@gmail.com
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Sidebar.scss'
 import LogoS from '../assets/images/logo-d.png'
 import LogoSubtitle from '../assets/images/logo-img.png'
@@ -14,23 +14,32 @@ import {
   faHome,
   faUser,
   faSuitcase,
+  faBars,
 } from '@fortawesome/free-solid-svg-icons'
 
-const Sidebar = () => {
+const Sidebar = ({ showNav, setShowNav }) => {
+  console.log(showNav ? 'helo' : 'bi')
+
   return (
     <div className="nav-bar">
-      <Link className="logo" to={'/'}>
+      <Link className="logo" to={'/'} onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="logo" />
       </Link>
-      <nav>
-        <NavLink exact="true" activeclassname="active" to={'/'}>
+      <nav className={showNav ? 'show' : 'en'}>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          to={'/'}
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink
           className={'about-link'}
           activeclassname="active"
           to={'/about'}
+          onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
@@ -38,6 +47,7 @@ const Sidebar = () => {
           className={'portfolio-link'}
           activeclassname="active"
           to={'/portfolio'}
+          onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
@@ -45,6 +55,7 @@ const Sidebar = () => {
           className={'contact-link'}
           activeclassname="active"
           to={'/contact'}
+          onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
@@ -74,6 +85,13 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
+      <FontAwesomeIcon
+        onClick={() => setShowNav(true)}
+        icon={faBars}
+        color="#ffd700"
+        size="3x"
+        className="mobile-link"
+      />
     </div>
   )
 }

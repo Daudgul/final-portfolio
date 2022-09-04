@@ -112,3 +112,51 @@
     }
   }
 }
+@media screen and (max-width: 960px) {
+  .page {
+    height: auto;
+    position: relative;
+  }
+  .tags {
+    margin-left: 20px;
+    left: 0;
+  }
+  .top-tags {
+    bottom: auto;
+    top: 76px;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 58px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+
+    // &.contact-page {
+    //   .text-zone {
+    //     width: 60%;
+    //   }
+    // }
+
+    &.about-page,
+    &.contact-page {
+      .text-zone {
+        width: 80%;
+        min-height: 0;
+      }
+    }
+  }
+  .text-zone {
+    position: static !important;
+    max-height: auto;
+    min-height: 350px;
+    float: left;
+    margin-left: 10%;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    margin-top: 170px;
+  }
+}

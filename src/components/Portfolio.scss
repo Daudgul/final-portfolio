@@ -111,3 +111,42 @@
     }
   }
 }
+
+@media screen and(max-width: 1020px) {
+  .portfolio-page {
+    margin-left: 6%;
+    margin-right: 0;
+    h1.page-title {
+      margin-left: 0;
+    }
+
+    .image-box {
+      flex: none;
+      max-width: none;
+      width: 250px;
+    }
+  }
+}
+@media screen and(max-width: 815px) {
+  .portfolio-page {
+    width: 80%;
+    padding-left: 18%;
+    padding-right: 0;
+    .images-container {
+      justify-content: center;
+    }
+    .image-box {
+      flex: none;
+      max-width: none;
+      width: 200px;
+      height: 300px;
+    }
+  }
+}
+@media screen and(max-width: 615px) {
+  .portfolio-page {
+    .images-container {
+      justify-content: center;
+    }
+  }
+}

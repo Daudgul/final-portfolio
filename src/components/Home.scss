@@ -82,3 +82,20 @@
     }
   }
 }
+
+@media screen and (max-width: 960px) {
+  .home-page {
+    .text-zone {
+      position: static !important;
+      width: 60%;
+      max-height: auto;
+      min-height: 350px;
+      float: left;
+      margin-left: 20%;
+      -webkit-transform: none !important;
+      -ms-transform: none !important;
+      transform: none !important;
+      margin-top: 140px;
+    }
+  }
+}

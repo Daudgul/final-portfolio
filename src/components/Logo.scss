@@ -49,3 +49,9 @@
     transform: rotateX(180deg) rotateZ(0deg);
   }
 }
+
+@media screen and (max-width: 960px) {
+  .logo-container {
+    display: none;
+  }
+}
