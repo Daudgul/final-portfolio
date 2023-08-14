@@ -1,23 +1,29 @@
 {
   "portfolio": [
     {
+      "cover": "/img/p-5.png",
+      "title": "Mordor Intelligence",
+      "description": "Nextjs, MUI",
+      "url": "https://www.mordorintelligence.com/"
+    },
+    {
       "cover": "/img/p-1.png",
       "title": "Hekto shoping app",
       "description": "Nextjs, Tailwind, MUI,  firebase",
       "url": "https://shopping-web-one.vercel.app"
     },
     {
+      "cover": "/img/p-3.png",
+      "title": "Netflix-clone App",
+      "description": "React.js, Redux, firebase",
+      "url": "https://netflix-portfolio-project-three.vercel.app/"
+    },
+    {
       "cover": "/img/p-2.png",
       "title": "Amazone clone app",
       "description": "React, firebase",
       "url": "https://clone-12b4c.web.app/#yourID"
-    },
-    {
-      "cover": "/img/p-3.png",
-      "title": "Netflix-clone App",
-      "description": "Nextjs, Tailwind, firebase",
-      "url": "https://movie-app-peach-ten.vercel.app/login"
-    },
+    },    
     {
       "cover": "/img/p-4.png",
       "title": "To-do app",
