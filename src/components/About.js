@@ -32,18 +32,22 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I am a front-end developer with 2+ years of experience in building
+            and designing user-facing web applications. I am proficient in
+            JavaScript, React,Redux, Next.js, Node, Express, Git, HTML, CSS, Sass,
+            MUI, Chakra, and Tailwind. I am also experienced in working with
+            APIs and databases.
           </p>
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I am passionate about creating beautiful and functional web
+            experiences. I am always looking for new ways to improve my skills
+            and learn new technologies. I am a team player and I am always
+            willing to help others.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a
-            hard-working and driven individual who isn't afraid to face a
-            challenge!!!
+            I am currently looking for a challenging and rewarding position as a
+            front-end developer. I am confident that I can make a significant
+            contribution to your team.
           </p>
         </div>
 

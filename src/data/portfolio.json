@@ -3,8 +3,14 @@
     {
       "cover": "/img/p-5.png",
       "title": "Mordor Intelligence",
-      "description": "Nextjs, MUI",
+      "description": "Express.js, Node.js, MongoDb",
       "url": "https://www.mordorintelligence.com/"
+    },
+    {
+      "cover": "/img/p-6.png",
+      "title": "Subscription Platform",
+      "description": "React.js, Redux, Node.js, MongoDb, MUI",
+      "url": "https://subscription.mordorlabs.com/"
     },
     {
       "cover": "/img/p-1.png",

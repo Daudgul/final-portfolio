@@ -7,7 +7,7 @@ const Info = () => {
       <div className="animated-mail">
         <div className="back-fold"></div>
         <div className="letter">
-          <div className="letter-title">Mohd Daud Gul</div>
+          <div className="letter-title">Daud Gul</div>
           <div className="letter-context">
             <p>+91-9012261447</p>
             <p>mohd.daudgul@gmail.com</p>

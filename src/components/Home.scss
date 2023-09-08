@@ -60,6 +60,11 @@
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
+
+    span a {
+      color: orange;
+      text-decoration: none;
+    }
   }
 
   .flat-button {
