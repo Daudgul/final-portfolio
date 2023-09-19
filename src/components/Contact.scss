@@ -112,6 +112,10 @@
   animation-duration: 20s;
 }
 
+.info-box:hover {
+  animation-play-state: paused; /* Pause the animation on hover */
+}
+
 @keyframes boxrotate {
   from,
   to {
